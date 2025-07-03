@@ -34,4 +34,29 @@
   <li>Open your browser and access localhost at port http://127.0.0.1:8000/</li>
 </ol>
 
+<h3>Setup Instructions</h3>
+<ol>
+  <li>Ensure you have Python 3.8 or 3.11 installed (recommended for compatibility).</li>
+  <li>Create a virtual environment:<br>
+    <code>python -m venv venv</code>
+  </li>
+  <li>Activate the virtual environment:<br>
+    <code>venv/Scripts/activate</code>
+  </li>
+  <li>Install the required packages:<br>
+    <code>pip install -r requirements.txt</code>
+  </li>
+  <li>Apply database migrations:<br>
+    <code>python .\projttgs\manage.py migrate</code>
+  </li>
+</ol>
+
+<h3>Run Instructions</h3>
+<ol>
+  <li>Start the development server:<br>
+    <code>python .\projttgs\manage.py runserver</code>
+  </li>
+  <li>Open your browser and go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a></li>
+</ol>
+
 
