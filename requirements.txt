@@ -1,0 +1,11 @@
+asgiref
+Django==3.2.10
+Pillow
+PyPDF2
+SQLAlchemy
+WeasyPrint
+cairocffi
+CairoSVG
+certifi
+cffi
+xhtml2pdf
