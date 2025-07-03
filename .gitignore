@@ -3,3 +3,5 @@ venv/*
 venv/Scripts/*
 venv/Lib/*
 venv/Lib/site-packages/*
+*.sqlite3
+*.pyc
